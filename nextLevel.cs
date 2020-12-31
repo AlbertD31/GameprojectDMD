@@ -23,7 +23,7 @@ public class nextLevel : MonoBehaviour
             if (healthManager != null)
             {
                 healthManager.PlayerWins();
-                animator.SetBool("OpenChest", startAnimation);
+                animator.SetBool("OpenCoffin", startAnimation);
                 startAnimation = false;
             }
 
